@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		76C68C07297EF93100708AE6 /* MappyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C68C06297EF93100708AE6 /* MappyApp.swift */; };
 		76C68C09297EF93100708AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C68C08297EF93100708AE6 /* ContentView.swift */; };
-		76C68C0B297EF93100708AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C68C0A297EF93100708AE6 /* Assets.xcassets */; };
 		76C68C0E297EF93100708AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C68C0D297EF93100708AE6 /* Preview Assets.xcassets */; };
+		76C68C15297EFABD00708AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C68C14297EFABD00708AE6 /* Assets.xcassets */; };
+		76C68C1A297EFBB600708AE6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C68C19297EFBB600708AE6 /* Location.swift */; };
+		76C68C1D297EFC9300708AE6 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C68C1C297EFC9300708AE6 /* LocationsDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76C68C03297EF93100708AE6 /* Mappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C68C06297EF93100708AE6 /* MappyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappyApp.swift; sourceTree = "<group>"; };
 		76C68C08297EF93100708AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		76C68C0A297EF93100708AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C68C0D297EF93100708AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76C68C14297EFABD00708AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76C68C19297EFBB600708AE6 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		76C68C1C297EFC9300708AE6 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,11 @@
 			children = (
 				76C68C06297EF93100708AE6 /* MappyApp.swift */,
 				76C68C08297EF93100708AE6 /* ContentView.swift */,
-				76C68C0A297EF93100708AE6 /* Assets.xcassets */,
+				76C68C1B297EFC6900708AE6 /* DataServices */,
+				76C68C17297EFB8B00708AE6 /* Views */,
+				76C68C18297EFB9400708AE6 /* ViewModels */,
+				76C68C16297EFB8100708AE6 /* Models */,
+				76C68C14297EFABD00708AE6 /* Assets.xcassets */,
 				76C68C0C297EF93100708AE6 /* Preview Content */,
 			);
 			path = Mappy;
@@ -65,6 +73,36 @@
 				76C68C0D297EF93100708AE6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76C68C16297EFB8100708AE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76C68C19297EFBB600708AE6 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76C68C17297EFB8B00708AE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76C68C18297EFB9400708AE6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		76C68C1B297EFC6900708AE6 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				76C68C1C297EFC9300708AE6 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C68C15297EFABD00708AE6 /* Assets.xcassets in Resources */,
 				76C68C0E297EF93100708AE6 /* Preview Assets.xcassets in Resources */,
-				76C68C0B297EF93100708AE6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C68C1D297EFC9300708AE6 /* LocationsDataService.swift in Sources */,
 				76C68C09297EF93100708AE6 /* ContentView.swift in Sources */,
+				76C68C1A297EFBB600708AE6 /* Location.swift in Sources */,
 				76C68C07297EF93100708AE6 /* MappyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
