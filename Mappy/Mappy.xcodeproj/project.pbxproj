@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762FFCA429804ACE007C94A7 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762FFCA329804ACE007C94A7 /* LocationPreviewView.swift */; };
 		76C68C07297EF93100708AE6 /* MappyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C68C06297EF93100708AE6 /* MappyApp.swift */; };
 		76C68C09297EF93100708AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C68C08297EF93100708AE6 /* ContentView.swift */; };
 		76C68C0E297EF93100708AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C68C0D297EF93100708AE6 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		762FFCA329804ACE007C94A7 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		76C68C03297EF93100708AE6 /* Mappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C68C06297EF93100708AE6 /* MappyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappyApp.swift; sourceTree = "<group>"; };
 		76C68C08297EF93100708AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				76FCBC2F297FDFC00002B09C /* LocationsView.swift */,
 				76FCBC35298008550002B09C /* LocationsListView.swift */,
+				762FFCA329804ACE007C94A7 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				76C68C1D297EFC9300708AE6 /* LocationsDataService.swift in Sources */,
 				76FCBC36298008550002B09C /* LocationsListView.swift in Sources */,
+				762FFCA429804ACE007C94A7 /* LocationPreviewView.swift in Sources */,
 				76FCBC34297FE32B0002B09C /* LocationsViewModel.swift in Sources */,
 				76C68C09297EF93100708AE6 /* ContentView.swift in Sources */,
 				76FCBC30297FDFC00002B09C /* LocationsView.swift in Sources */,
